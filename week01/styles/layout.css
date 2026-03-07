@@ -1,7 +1,40 @@
-title{
+* {
+    margin: 0;
+    padding: 0;
+}
+.title{
     font-size: 2em;
-    color: #965d5d;
+    color: rgb(218, 213, 213);
     text-align: center;
+    margin-top: 10px;
+    background-color: rgb(148, 142, 142);
+}
+.footer-text{
+    text-align: center;
+    font-size: 0.8em;
+    color: #965d5d;
     margin-top: 20px;
-    background-color: #b9b4b4;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    list-style: none;
+    background-color: rgb(17, 16, 16);
+}
+.navigation li{
+    margin: 10px;
+    flex: 1 1 auto;
+}
+.navigation a{
+    text-decoration: none;
+    color: rgb(232, 236, 238);
+    font-size: 1.2em;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.navigation a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(245, 241, 19);
 }
