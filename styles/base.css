@@ -7,10 +7,14 @@ body{
 #course-title {
     display: block;
     text-align: center;
-    background-color: rgb(124, 153, 196);
+    background-color: rgb(4, 62, 150);
     color: rgb(255, 255, 255);
     padding: 15px;
     font-size: 1.2rem
+}
+img {
+    max-width: 100%;
+    height: auto;
 }
 .navigation {
     display: flex;
@@ -29,7 +33,7 @@ body{
     color: rgb(19, 235, 19);
 }
 header {
-    background-color: rgb(46, 45, 45);
+    background-color: rgb(22, 22, 22);
     padding: 10px;
 }
 div {
@@ -54,7 +58,7 @@ h1 {
     overflow: hidden;
 }
 .card h2 {
-    background-color: rgb(124, 153, 196);
+    background-color: rgb(11, 27, 51);
     color: white;
     margin: 0;
     padding: 15px;
@@ -85,7 +89,7 @@ h1 {
     margin-bottom: 10px;
 }
 footer {
-    background-color: rgb(124, 153, 196);
+    background-color: rgb(11, 27, 51);
     color: white;
     text-align: center;
     padding: 20px;
