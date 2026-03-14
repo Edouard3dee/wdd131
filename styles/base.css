@@ -1,0 +1,26 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header span{
+    display: block;
+    text-align: center;
+    background-color: rgb(124, 153, 196);
+    color: rgb(255, 255, 255);                 
+}
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.navigation a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.navigation a:hover {
+    text-decoration: underline;
+    color: rgb(19, 235, 19);
+}
+header {
+    background-color: rgb(148, 142, 142);
+    padding: 10px;
+}

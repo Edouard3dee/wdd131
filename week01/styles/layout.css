@@ -38,3 +38,10 @@
     text-decoration: underline;
     text-decoration-color: rgb(245, 241, 19);
 }
+.main-content{
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 20px;
+    margin-top: 20px;
+    background-color: rgb(148, 142, 142);
+}
