@@ -1,26 +1,97 @@
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-header span{
+
+#course-title {
     display: block;
     text-align: center;
     background-color: rgb(124, 153, 196);
-    color: rgb(255, 255, 255);                 
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 1.2rem
 }
 .navigation {
     display: flex;
     justify-content: space-around;
     list-style: none;
+    margin: 0;
+    padding: 10px;
 }
 .navigation a {
     text-decoration: none;
     color: rgb(255, 255, 255);
+    font-size: 1.1rem;
 }
 .navigation a:hover {
     text-decoration: underline;
     color: rgb(19, 235, 19);
 }
 header {
-    background-color: rgb(148, 142, 142);
+    background-color: rgb(46, 45, 45);
     padding: 10px;
+}
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+h1 {
+        text-align: center;
+        margin-top: 30px;
+        font-weight: normal;
+    }
+.info {display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.card h2 {
+    background-color: rgb(124, 153, 196);
+    color: white;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+}
+.country-name {
+    text-align: center;
+        border-bottom: 1px solid #ccc;
+        margin: 20px;
+        padding-bottom: 5px;
+}
+.about-content {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.country-description {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+}
+.card ul {
+    padding: 10px 20px;
+}
+
+.card ul li {
+    margin-bottom: 10px;
+}
+footer {
+    background-color: rgb(124, 153, 196);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#lastModified {
+    color: yellow;
 }
