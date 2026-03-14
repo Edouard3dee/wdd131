@@ -25,7 +25,7 @@ img {
 }
 .navigation a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(10, 4, 4);
     font-size: 1.1rem;
 }
 .navigation a:hover {
@@ -33,7 +33,7 @@ img {
     color: rgb(19, 235, 19);
 }
 header {
-    background-color: rgb(81, 104, 105);
+    background-color: rgb(184, 177, 177);
     padding: 10px;
 }
 div {
